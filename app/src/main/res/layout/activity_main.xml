@@ -28,6 +28,10 @@
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@id/send_button"/>
 
-
+    <ListView
+        android:id="@+id/messages_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/message_box"/>
 
 </RelativeLayout>
