@@ -9,6 +9,8 @@ public class UserMessage {
     private String message;
     private String user;
 
+    public UserMessage(){}
+
     public UserMessage(String message, String user) {
         this.message = message;
         this.user = user;
